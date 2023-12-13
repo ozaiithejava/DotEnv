@@ -4,7 +4,9 @@
 
 ## Usage:
 ```Java
+EnvVariableManager envManager = new EnvVariableManager(".env");
 
+      
         // Çevresel değişkenleri oku
         Map<String, String> envVariables = envManager.readEnvVariables();
         System.out.println("Çevresel Değişkenler:");
