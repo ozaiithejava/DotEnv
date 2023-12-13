@@ -112,8 +112,4 @@ public class EnvVariableManager {
 
         Files.writeString(envFilePath, updatedEnvContent.toString(), StandardOpenOption.TRUNCATE_EXISTING);
     }
-
-    public static void main(String[] args) {
-        EnvVariableManager envManager = new EnvVariableManager(".env");
-
 }
